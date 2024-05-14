@@ -1,7 +1,7 @@
 //1How many callbacks queues in Node.js and what are they? 
 //1Give examples to explain how different callbacks are enqueued in different queues.
 //     * The Event Loop Queue: and Various Asynchronous Callback Queues.
- //    ** Node.js, when you write asynchronous code using callbacks,(timer queue, I/O queue,and NextTickQueue...) 
+ //    ** Node.js, when you write asynchronous code using callbacks,(timer queue, I/O queue,and NextTickQueue...) and Synchornious 
  //     *these callbacks get queued up in different lines (or queues) based on the type of task they represent. 
  //    *The event loop then manages these queues, ensuring that each task is executed at the right time.
 //__________________________________________________________________________________________________________________
